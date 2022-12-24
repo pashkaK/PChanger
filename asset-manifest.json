@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PChanger/static/css/main.cd9f0994.css",
+    "main.js": "/PChanger/static/js/main.435356a4.js",
+    "index.html": "/PChanger/index.html",
+    "main.cd9f0994.css.map": "/PChanger/static/css/main.cd9f0994.css.map",
+    "main.435356a4.js.map": "/PChanger/static/js/main.435356a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd9f0994.css",
+    "static/js/main.435356a4.js"
+  ]
+}
