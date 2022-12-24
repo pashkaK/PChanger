@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cccccc;
+}
+
+.header {
+    width: 100%;
+    background-color: #191919;
+    /*background-color: rgba(45,48,71, .9);*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+
+.wrapper__list {
+    padding: 10px 15px;
+}
+
+.rate__item {
+    color: #E5E5E5;
+    font-size: 18px;
+}
+
+.converter__container {
+    width: 100%;
+    max-width: 1400px;
+
+}
+
+.converter {
+    max-width: 1400px;
+    width: 70%;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0, 0.5);
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.converter__title {
+    text-align: center;
+    padding: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 5px 15px;
+    margin: 5px 0;
+    border: 1px solid teal;
+}
+
+select {
+    border: 1px solid teal;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+select:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 1px #38577a, 0px 0px 10px #7e9bbd;
+}
+
+svg {
+    max-width: 75px;
+    cursor: pointer;
+    padding: 15px;
+}

@@ -1,0 +1,15 @@
+.wrapper {
+    padding: 10px 15px;
+}
+
+.logo {
+    font-size: 36px;
+    color: #E5E5E5;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 480px){
+    .logo {
+        font-size: 28px;
+    }
+}
